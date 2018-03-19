@@ -1,0 +1,84 @@
+#bgimg{
+	background-image: url('images/littlehacks_bgimg.jpg');
+	 /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+#container{
+	/*border: 1px solid white;*/
+	top: 50%;
+	left: 50%;
+	position: absolute;
+ 	transform: translate(-50%, -50%);
+  	-webkit-transform: translate(-50%, -50%);
+  	-moz-transform: translate(-50%, -50%);
+  	-o-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+}
+
+#logo{
+	 width: 350px;
+	 padding: 15px;
+}
+
+/*#searchbtn{
+	background-color: #6C757D;
+	color: #fff;
+}
+
+#searchbtn:hover{
+	background-color: #5A6268;
+}*/
+
+#header{
+	background-image: url('images/littlehacks_bgimg.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+	margin:0;
+}
+
+#headerSearch{
+	width: 700px;
+	float:right;
+	margin: 45px;
+}
+
+#resultBox{
+	margin: 25px auto;
+	width: 75%;
+	padding: 0 20px 20px 20px;
+}
+
+#searchfeedback{
+	color: #8090B5;
+	text-size: 12px;
+}
+
+.dropdown{
+	float: right;
+	margin-top: -40px;
+}
+
+.list-group{
+	margin-top: 40px;
+}
+
+#acctinfo{
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#acctusername{
+	color: #8090B5;
+}
+
+#acctimg{
+	float:left;
+	padding-top: 10px;
+}
